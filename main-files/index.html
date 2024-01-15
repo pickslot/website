@@ -1,0 +1,758 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pickslot | Your appointment buddy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon">
+
+        <!-- All css here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/all-animations.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        
+        <!--  ====== preloader=============================================  -->
+        <div id="preloader">
+            <div id="loading">
+                <div id="loading-center">
+                    <div id="loading-center-absolute">
+                        <div class="object" id="object_one"></div>
+                        <div class="object" id="object_two"></div>
+                        <div class="object" id="object_three"></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /preloader -->
+     
+        <!--  ====== header-area-start=======================================  -->
+        <header>
+            <div id="header-sticky" class="transparent-header home3 header-area">
+                <div class="header">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between position-relative">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-6">
+                                <div class="logo">
+                                    <a href="index.html" class="d-inline-block"><img src="images/logo/logo.png" alt="Evalo"></a>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-10 col-lg-10 col-md-1 col-sm-1 col-1 d-none d-lg-flex justify-content-end position-static">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul class="d-block">
+                                            <li class="full-mega-menu-position"><a class="active" href="index.html"><span lang="en">Home</span><span lang="gr">Αρχική</span></a></li>
+                                            <li><a href="#calendar"><span lang="en">Calendar</span><span lang="gr">Αντζέντα</span></a></li>
+                                            <li><a href="#bot">Chat Bot</a></li>
+                                            <li><a href="#start"><span lang="en">Get started</span><span lang="gr">Χρήση</span></a></li>
+                                            <li><a href="#contact"><span lang="en">Contact form</span><span lang="gr">Επικοινωνία</span></a></li>
+                                         </ul>
+                                    </nav>
+                                </div><!-- /main-menu -->
+                                   <!-- <div class="mobile-menu"></div> -->
+                                   <div class="header-right d-flex align-items-center justify-content-end">
+                                    <div class="my-btn pl-30 pr-30 d-none d-sm-block">
+                                        <a href="#contact" class="btn transparent-bg text-capitalize"><span lang="en">I am merchant</span><span lang="gr">Για επιχειρήσεις</span></a>
+
+                                    </div><!-- /my-btn -->
+                                    <div id="switch-lang" class="grab "><span lang="en">Ελληνικά</span><span lang="gr">English</span></div>
+                                    <div id="switch-lang" class="arrow down"></div>
+
+ <!--                                    <div   class="language-area d-none d-xl-inline-block">
+                                        <ul>
+                                            <li id="flags_menu" class="position-relative transition-3">
+                                                <a href="#" class="language d-inline-block text-uppercase d-flex align-items-center black-color f-500">
+                                                    En<span class="pl-1"><i class="fal fa-angle-down"></i></span>
+                                                </a>
+                                                <ul class="show-language z-index1 position-absolute mt-15 pt-3 pb-10 px-4 white-bg">
+                                                    <li id="en-lang" >
+                                                        <a href="#">
+                                                            <span class="grab"  class="pr-2 d-inline-block">
+                                                                <img src="images/menu/flags/eng-flag.png" alt="image">
+                                                            </span>
+                                                            English
+                                                        </a>
+                                                    </li>
+                                                    <li id="gr-lang" >
+                                                        <a href="#">
+                                                            <span   class="grab"  class="pr-2 d-inline-block">
+                                                                <img src="images/menu/flags/gr-flag.png" alt="image">
+                                                            </span>
+                                                            Ελληνικά
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                    <!-- /language -->
+
+
+
+                                </div><!-- /header-right -->
+                            </div><!-- /col -->
+                            <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6 col-5 d-lg-none">
+                                <div class="header-right d-flex align-items-center justify-content-end">
+                                    <div class="my-btn d-none d-sm-block">
+                                        <a href="#contact" class="btn transparent-bg text-capitalize">I am merchant</a>
+                                    </div><!-- /my-btn -->
+                                    <div class="d-block d-lg-none pl-20">
+                                        <a class="mobile-menubar theme-color" href="javascript:void(0);"><i class="far fa-bars"></i></a>
+                                    </div>
+                                </div><!-- /header-right -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+            </div><!-- /header-bottom -->
+        </header>
+        <!--  header-area-end  -->
+
+
+        <!--  ====== header extra info start================================== -->
+        <!-- side-mobile-menu start -->
+
+        <div class="side-mobile-menu white-bg pt-10 pb-30 pl-35 pr-30 pb-100">
+            <div class="w-100">
+                <div class="close-icon d-inline-block float-right clear-both mt-15 mb-10">
+                    <a href="javascript:void(0);"><span class="icon-clear theme-color"><i class="fa fa-times"></i></span></a>
+                </div>
+            </div>
+
+            
+
+            <div class="mobile-menu mt-10 w-100"></div>
+
+            
+            <ul class="social-link pt-50 clear-both">
+<!--                 <li class="d-inline-block">
+                    <a class="facebook-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="d-inline-block">
+                    <a class="twitter-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="d-inline-block">
+                    <a class="google-plus-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li> -->
+                <li class="d-inline-block">
+                    <a class="linked-in-color text-center d-inline-block transition-3" href="https://www.linkedin.com/company/pickslot/"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul><!-- social-link -->
+
+
+
+        </div><!-- /side-mobile-menu -->
+        <div class="body-overlay"></div>
+
+
+   
+
+        <main class="over-hidden">
+            <!-- ======slider-area-start=========================================== -->
+            <div class="slider-area position-relative home3 over-hidden home3 primary-bg">
+                <div id="scene" class="position-absolute w-100 h-100 z-index1">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-1 d-none d-lg-inline-block s-shape" src="images/slider/home3-shape/hm3-shape1.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-2 bounce-animate2 d-none d-lg-inline-block" src="images/slider/home3-shape/hm3-shape2.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-3 d-none d-lg-inline-block s-shape" src="images/slider/home3-shape/hm3-shape3.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-4 d-none d-lg-none bounce-animate2 d-sm-inline-block" src="images/slider/home3-shape/hm3-shape4.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-5 d-none d-lg-none bounce-animate2 d-md-inline-block" src="images/slider/home3-shape/hm3-shape5.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-6 d-none d-lg-none bounce-animate2 d-sm-inline-block" src="images/slider/home3-shape/hm3-shape6.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-7 d-none d-lg-inline-block s-shape" src="images/slider/home3-shape/hm3-shape7.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-8 d-none d-lg-inline-block s-shape" src="images/slider/home3-shape/hm3-shape8.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-9 d-none d-lg-block heartbeat2" src="images/slider/home3-shape/home3-round-shape1.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-10 d-none d-lg-block heartbeat2" src="images/slider/home3-shape/home3-round-shape2.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-11 d-none d-lg-block heartbeat" src="images/slider/home3-shape/home3.round-shape3.png" alt="#">
+                    <img data-depth="0.20" class="hm3-shape hm3-shape-12 d-none d-lg-block heartbeat" src="images/slider/home3-shape/home3.round-shape3.png" alt="#">
+                </div>
+                <!-- /shape-slider -->
+
+            <div class="single-slider slider-height slider-height3 d-flex align-items-center position-relative z-index11">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12  d-flex align-items-center">
+                            <div class="slider-content position-relative z-index11">
+
+                                <h1 hidden>Pickslot appointments</h1>
+
+                                <h1 class="f-700 pb-22 pr-0" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="150" lang="en">Book Now</h1>
+                                <h1 class="f-700 pb-22 pr-0" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="150" lang="gr">Πρόσφερε κρατήσεις 24/7</h1>
+
+                                <p data-aos="fade-right" data-aos-duration="2000" lang="en">
+                                    Why have your customers wait in the phone line? Receive appointment requests every day, every hour, not only when your store is open. Manage your appointments and stay in touch with your customers easily.
+                                </p>
+
+                                <p data-aos="fade-right" data-aos-duration="2000" lang="gr">
+                                    Γιατί να ασχολείσαι με τις τηλεφωνικές κλήσεις ενώ εργάζεσαι; Με το Pickslot μπορείς να δέχεσαι αιτήματα για κρατήσεις κάθε μέρα και κάθε ώρα, ακόμα και όταν η επιχείρησή σου είναι κλειστή. Διαχειρίσου τις κρατήσεις όποτε εσύ θέλεις και κράτα τους πελάτες σου ενήμερους για ό,τι συμβεί.
+                                </p>
+        
+
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-12 col-12  d-flex align-items-center ">
+                            <div class="slider-img1 pl-65 z-index1 position-relative">
+                                <img class="bounce-animate" src="images/slider/Customer_2.png" alt="image">
+                            </div>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /single-slider -->
+
+            <!-- /bg-shape-slider -->
+            <img class="hm3-bg-shape hm3-bg-shape1 position-absolute " data-aos="fade-right" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape1.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape2 position-absolute " data-aos="fade-right" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape2.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape3 position-absolute " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape3.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape4 position-absolute " data-aos="fade-up" data-aos-duration="2000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape4.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape5 position-absolute " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape5.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape6 position-absolute" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape6.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape7 position-absolute  right-0 top-0" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape7.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape8 position-absolute " data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape8.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape9 position-absolute " data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape9.png" alt="image">
+            <img class="hm3-bg-shape hm3-bg-shape10 position-absolute " data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="150" src="images/slider/home3-shape/home3-shape8.png" alt="image">
+
+            <div class="hm3-left-dotted position-absolute d-none d-md-block">
+                <img src="images/slider/home3-shape/home3-left-dotted.png" alt="image">
+            </div><!-- /slider-left-dotted -->
+            <div class="hm3-right-dotted position-absolute d-none d-md-block">
+                <img src="images/slider/home3-shape/home3-right-dotted.png" alt="image">
+            </div><!-- /slider-left-dotted -->
+
+        </div>
+        <!-- slider-area-end  -->
+
+        <!-- ====== intro-area-start=========================================== -->
+        
+        <!-- intro-area-end -->
+
+
+        <div id ="bot" class="home3-feature-product-area home3 position-relative over-hidden pt-175 pl-120 pr-120 mb170">
+            <div class="home3-feature-product-bg bg-cover bg-no-repeat pb-100"  data-background="images/bg/home3-feature-bg.png">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="home3-feature-product-left-content pt-175">
+                                <div class="title">
+                                    <h3 class="f-700 mb-30" lang="en">You have the bot assistance</h3>
+                                    <h3 class="f-700 mb-30" lang="gr">Έχεις τον βοηθό σου</h3>
+
+                                    <p class="pb-10" lang="en">Let your Viber Bot chat with your clients while you are focused on your actual business.</p>
+                                    <p class="pb-10" lang="gr">Το Viber Bot είναι εδώ για να μπορούν οι πελάτες σου να κλείνουν ραντεβού όσο εσύ ασχολείσαι με την πραγματική δουλειά.</p>
+                                    <p class="pb-10" lang="en">Scan the QR code with your mobile phone and find out what the Viber bot can do</p>
+                                    <p class="pb-10" lang="gr">Σκάναρε το QR code και δες τις δυνατότητες του Viber Bot στο κινητό σου</p>
+                                    <img class="pb-10" lang="gr" src="images/viberbot/pickslot_viber_bot_img_gr.png">
+                                    <img class="pb-10" lang="en" src="images/viberbot/pickslot_viber_bot_img_eng.png">
+
+                                </div><!-- /title -->
+                               
+                            </div><!-- /home3-feature-product-left-content -->
+                        </div><!-- /col -->
+                        <div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-12">
+                            <div class="home3-feature-product-img-wrapper-margin d-flex justify-content-end mt--45" data-aos="fade-up" data-aos-duration="2000">
+                                <img class="d-inline-block" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdjMDZkZTRjZjE4N2M2MmRkMTQwNmQyYzVhMjZkMDJlNDU2YzFmNyZjdD1n/lJViSxR2pV39W3MtrS/giphy.gif" alt="image">
+                            </div><!-- /home3-feature-product-img-wrapper -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                
+                </div><!-- /container -->
+            </div><!-- /home3-feature-product-bg -->
+        </div>
+
+        <div id="integration" class="about-area home3 position-relative over-hidden">
+            <div class="home3-about pt-125 pb-170">
+                <div class="container">
+                    <div class="row align-items-center pt-90">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="about-left-content mb-50 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="title">
+                                    <!--<span class="theme-color f-700">Learn more about us</span>-->
+                                    <h3 class="f-700 mb-30" lang="gr">Είσαι στο κέντρο της επιχείρησής σου</h3>
+                                    <p class="pb-10" lang="gr">Το Pickslot γίνεται το κέντρο των κρατήσεών σου. Η αλληλεπίδραση που προσφέρουμε με τα δημοφιλέστερα εργαλεία όπως το Google Calendar και το Outlook Calendar σου προσφέρει αμέτρητες δυνατότητες στον τρόπο διαχείρισης των κρατήσεών σου.</p>
+
+                                    <h3 class="f-700 mb-30" lang="en">Stay in your comfort zone</h3>
+                                    <p class="pb-10" lang="en">Your appointments are smoothly integrated with your Google Calendar or Outlook Calendar, offering a multi-channel appointment management.</p>
+                                </div>
+                               
+                            </div><!-- /about-left-content -->
+                        </div><!-- /col -->
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="home3-about-img-wrapper-margin mb-10 d-flex justify-content-end aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="home3-about-img bg-transparent tilt position-relative z-index11">
+                                    <img class="about-img1 position-absolute d-inline-block z-index1" src="images/feature/google_calendar.png" alt="image">
+                                    <img class="about-img2 position-absolute d-inline-block z-index1" src="images/feature/outlook-cal.png" alt="image">
+                                    <div class="home3-about-img-border bg-transparent z-index-1"></div>
+                                </div><!-- /about-img -->
+                            </div><!-- /home3-about-img-wrapper -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /home3-about-bg -->
+        </div>
+        
+            
+        <!-- ====== service-area-start ==================================== -->
+        <div class="service-area home2 mt-110 border-bottom pb-65">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-7  col-lg-8  col-md-10  col-sm-12 col-12">
+                        <div class="title text-center">
+                            <span class="theme-color f-700" lang="en">For businesses</span>
+                            <span class="theme-color f-700" lang="gr">Για τις επιχειρήσεις</span>
+
+                            <h4 class="f-700 pb-30" lang="gr">Ξεκίνα να δέχεσαι ραντεβού τώρα</h4>
+                            <h4 class="f-700 pb-30" lang="en">Start offering 24/7 appointments now</h4>
+
+                        </div><!-- /title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row mt-10">
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60 pb-35  mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30 transition5">
+                                <img src="images/icon/barber-brush_hires.png"  alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Barbershops</h6>
+                                <h6 class="f-700 mb-22 " lang="gr">Μπαρμπέρικα</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60  pr-50 mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30  transition5">
+                                <img src="images/icon/027-hairdryer.svg" alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Hair Salons</h6>
+                                <h6 class="f-700 mb-22 text-center" lang="gr">Κομμωτήρια</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60 pb-35  mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30  transition5">
+                                <img src="images/icon/003-mortar.svg" alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Beauty Salons</h6>
+                                <h6 class="f-700 mb-22" lang="gr">Κέντρα Oμορφιάς</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60 pb-35  mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30  transition5">
+                                <img src="images/icon/001-nails.svg" alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Nail Salons</h6>
+                                <h6 class="f-700 mb-22" lang="gr">Σαλόνια Νυχιών</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60 pb-35  mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30  transition5">
+                                <img src="images/icon/018-powder.svg" alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Spa</h6>
+                                <h6 class="f-700 mb-22" lang="gr">Spa</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-6 col-6">
+                        <div class="single-service-content text-center transition5 mt-10  pt-60 pb-35  mb-30 tilt">
+                            <div class="ser-icon d-inline-block text-center mb-30  transition5">
+                                <img src="images/icon/014-natural.svg" alt="image">
+                            </div><!-- /ser-icon -->
+                            <div class="service-text">
+                                <h6 class="f-700 mb-22" lang="en">Massage</h6>
+                                <h6 class="f-700 mb-22" lang="gr">Μασάζ</h6>
+
+                            </div>
+                        </div><!-- /single-service-content -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+        <!-- service-area-end  -->
+
+        <div id="calendar" class="home4-feature2 home4 over-hidden">
+            <div class="container">
+                <div class="row align-items-center mt-10">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="home4-feature2 pr-90" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="title">
+                                
+                                <h3 class="f-700 pb-30" lang="en">All your appointments in a single view</h3>
+                                <h3 class="f-700 pb-30" lang="gr">Όλες οι κρατήσεις, σε μια ματιά</h3>
+
+                                <p lang="en">The calendar helps you manage your appointments efficiently.</p>
+                                <p lang="gr">Η αντζέντα σου προσφέρει ολοκληρωμένη εικόνα για τις κρατήσεις της ημέρας. Ακόμα και όταν η επιχείρησή σου μεγαλώνει και οι συνεργάτες σου αυξάνονται, η διαχείριση των κρατήσεων γίνεται παιχνίδι!</p>
+
+                            </div><!-- /title -->
+                            
+                        </div><!-- /feature-content -->
+                    </div><!-- /col -->  
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class=" home4-feature2-img-margin" data-aos="fade-up" data-aos-duration="2000">
+                            <img class="bounce-animate" src="images/feature/pickslot_calendar.png" alt="image">
+                        </div><!-- /feature-img -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div>
+
+            <!-- ====== about-area-start=========================================== -->
+            <div id="start" class="about-area home3 position-relative over-hidden">
+                <div class="home3-about pt-125 pb-170"  >
+                    <div class="container">
+                        <div class="row align-items-center pt-90">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="about-left-content mb-50" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="title">
+                                        <!--<span class="theme-color f-700">Learn more about us</span>-->
+                                        <h3 class="f-700 mb-30" lang="en">Bootstrap your store in four steps</h3>
+                                        <h3 class="f-700 mb-30" lang="gr">Ξεκίνα με 4 απλά βήματα</h3>
+
+                                        <p class="pb-10" lang="en">With our bootstrap wizard, you are a few minutes away from accepting appointments.</p>
+                                        <p class="pb-10" lang="gr">Με το ειδικά σχεδιασμένο μενού, είσαι λίγα μερικά κλικ από το να δέχεσαι ηλεκτρονικές κρατήσεις.</p>
+
+                                    </div>
+                                    
+                                </div><!-- /about-left-content -->
+                            </div><!-- /col -->
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="home3-about-img-wrapper-margin mb-10 d-flex justify-content-end" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="home3-about-img bg-transparent tilt position-relative z-index11"> 
+                                        <img class="about-img1 position-absolute d-inline-block z-index1" src="images/about/Services.png" alt="image">
+                                        <img class="about-img2 position-absolute d-inline-block z-index1" src="images/about/Resources.png" alt="image">
+                                        <div class="home3-about-img-border bg-transparent z-index-1"></div>
+                                    </div><!-- /about-img -->
+                                </div><!-- /home3-about-img-wrapper -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div><!-- /home3-about-bg -->
+            </div>
+            <!-- about-area-end -->
+
+            <div id="services" class="home4-feature2 home4 over-hidden">
+                <div class="container">
+                    <div class="row align-items-center mt-10">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="home4-feature2 pr-90" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="title">
+                                    
+                                    <h3 class="f-700 pb-30" lang="en">Having a new Service? No problem</h3>
+                                    <h3 class="f-700 pb-30" lang="gr">Θέλεις να εισάγεις νέα υπηρεσία; Κανένα πρόβλημα!</h3>
+
+                                    <p lang="en">Your services are the heart of your business. We provide a simple way to manage them.</p>
+                                    <p lang="gr">Οι υπηρεσίες σου είναι η καρδιά της επιχείρησής σου και γι' αυτό σου παρέχουμε έναν εύκολο τρόπο για να τις διαχειρίζεσαι.</p>
+
+                                </div><!-- /title -->
+                                
+                            </div><!-- /feature-content -->
+                        </div><!-- /col -->  
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class=" home4-feature2-img-margin" data-aos="fade-up" data-aos-duration="2000">
+                                <img class="bounce-animate" src="images/feature/Services.png" alt="image">
+                            </div><!-- /feature-img -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+
+            <div id="contact" class="contact-area mb-165 mt-155">
+                <div class="contact-wrapper position-relative">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
+                                <div class="contact-wrapper pb-20">
+                                    <div class="title text-md-center text-lg-left">
+                                        <span class="theme-color f-700" lang="en">Stay Connected</span>
+                                        <span class="theme-color f-700" lang="gr">Επικοινωνία</span>
+
+                                        <h3 class="f-700" lang="en">Contact Us</h3>
+
+                                    </div>
+                                    <ul class="contact-info-content d-md-flex justify-content-between d-lg-block mt-50">
+                                        <li class="contact-location s-contact text-md-center text-lg-left mb-35 transition-3 d-lg-flex d-flex d-md-block">
+                                        <!-- /contact-icon                                            
+                                            <div class="contact-icon d-inline-block text-center primary-bg mr-30">
+                                                <span class="text-white d-inline-block">
+                                                   <img src="images/icon/placeholder-icon.png" alt="image">
+                                                </span>
+                                            </div>
+                                            <div class="contact-text">
+                                                <h4 class="f-700 mb-2">Location</h4>
+                                                <p class="secondary-color mb-0">20 Bordeshi, Amin Bazar
+                                                    <br> Savar, Dhaka - 1348</p>
+                                            </div>
+                                            -->
+                                        </li><!-- /contact-location -->
+                                        <li class="contact-email s-contact text-md-center text-lg-left mb-35 transition-3 d-lg-flex d-flex d-md-block">
+                                            <div class="contact-icon d-inline-block text-center primary-bg mr-30">
+                                                <span class="text-white d-inline-block">
+                                                    <img src="images/icon/letter-icon.png" alt="image">
+                                                    </span>
+                                            </div><!-- /contact-icon -->
+                                            <div class="contact-text">
+                                                <h4 class="f-700 mb-2">Email</h4>
+                                                <p class="mb-0">
+                                                    <a class="secondary-color2 primary-hover d-block" href="#">support@pickslot.io</a>
+                                                </p>
+                                            </div>
+                                        </li><!-- /contact-email -->
+                                        
+                                    </ul><!-- /contact-info-content -->
+                                </div><!-- /contact-wrapper -->
+                            </div><!-- /col -->
+                            <div class="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
+                                <div class="contact-wrapper">
+                                    <div class="contact-form">
+                                        <div class="title px-md-5 px-lg-0 text-md-center text-lg-left">
+                                            <h3 class="f-700 mb-40" lang="en">Join Pickslot</h3>
+                                            <h3 class="f-700 mb-40" lang="gr">Γνώρισε το Pickslot</h3>
+
+                                            <p class="mb-20" lang="en">Have questions or want to be part of our network? Fill out the form below and we will reach out!</p>
+                                            <p class="mb-20" lang="gr">Θέλεις να μάθεις περισσότερα; Γράψε μας και εμείς θα έρθουμε άμεσα σε επικοινωνία</p>
+
+                                        </div><!-- /title -->
+                                        <form action="php/mail.php" method="POST" id="contact-form">
+                                            <div class="contact-info text-md-center text-lg-left pt-20">
+
+                                                <div class="row">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-15" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                                                        <input class="name w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 primary-font-family" type="text" name="inputName" id="inputName" placeholder="Your Name *" required><!-- /name -->
+                                                    </div><!-- /col -->
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-15" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2500">
+                                                        <input class="email w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 primary-font-family" type="email" name="inputEmail" id="inputEmail" placeholder="Your Email *" required><!-- /email -->
+                                                    </div><!-- /col -->
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-15" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                                                        <input class="phone w-100 theme-border pl-20 pt-15 pb-15 pr-10" type="text" name="inputPhone" id="inputPhone" placeholder="Your Phone" required><!-- /phone -->
+                                                    </div><!-- /col -->
+                                                </div><!-- /row -->
+                                                <div class="row ">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-15" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                                                        <textarea class="massage w-100 primary-border pl-20 pt-20" name="inputMessage" id="inputMessage" placeholder="Your query *" required></textarea><!-- /textarea -->
+                                                    </div><!-- /col -->
+                                                </div><!-- /row -->
+                                                <div class="my-btn mt-40">
+                                                    <button class="btn theme-bg text-uppercase f-18 f-700" 
+                                                    type="submit" 
+                                                    name="submit" 
+                                                    data-aos="fade-up" 
+                                                    data-aos-anchor-placement="top-bottom" 
+                                                    data-aos-duration="2500"><span lang="en">Submit</span><span lang="gr">Υποβολη</span></button>
+                                                </div>
+                                                
+                                            </div>
+                                        </form>
+                                        <p class="form-message mt-20"></p>
+                                    </div><!-- /contact-form -->
+                                </div><!-- /contact-wrapper -->
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                        
+                    </div><!-- /container -->
+                </div><!-- /contact-wrapper -->
+            </div>
+            
+        </main>
+          
+        <footer> 
+            <div class="footer-area home2 primary-bg pt-200">
+                <div class="footer-top pb-55">
+                    <div class="container">
+                        <div class="row">
+        <!--                     <div class="col-xl-3  col-lg-4  col-md-12  col-sm-12 col-12">
+                                <div class="footer-widget f-subscriber-area pb-30 mt-25">
+                                    <h6 class="text-capitalize f-700 mb-22">Subscribe Us</h6>
+                                    <div class="footer-subscribe">
+                                        <p>Fectetur adipisicing elit, sed do eius mod tempor</p>
+                                        <form action="#">
+                                            <div class="subscribe-info mt-22 position-relative">
+                                                <input class="sub-name form-control border-0 pl-20 pt-15 pb-15 pr-10 white-bg secondary-color rounded-0" type="email" name="email" id="email" placeholder="Submit email">
+                                                <span class="secondary-color d-inline-block position-absolute pointer"><i class="far fa-envelope"></i></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div> -->
+                            <!-- /col -->
+                            <div class="col-xl-4 col-lg-4  col-md-4  col-sm-4 col-12">
+                                <div class="footer-widget f-info pb-30 ml-40 pr-20 mt-25">
+                                    <h6 class="text-capitalize f-700 mb-22" lang="en">About Pickslot</h6>
+                                    <h6 class="text-capitalize f-700 mb-22" lang="gr">Σχετικά με το Pickslot</h6>
+
+                                    <ul class="footer-info">
+                                        <li lang="en" >
+                                            <a href="#contact" class="position-relative d-inline-block mb-2">Team</a>
+                                        </li>
+                                        <li lang="gr" >
+                                            <a href="#contact" class="position-relative d-inline-block mb-2">Ποιοί είμαστε</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4  col-lg-4  col-md-4  col-sm-4 col-12">
+                                <div class="footer-widget f-info pb-30 ml-40 pr-20 mt-25">
+                                    <h6 class="text-capitalize f-700 mb-22" lang="en">For businesses</h6>
+                                    <h6 class="text-capitalize f-700 mb-22" lang="gr">Επιχειρήσεις</h6>
+
+                                    <ul class="footer-info">
+                                        <li lang="en" >
+                                            <a href="#contact" lang="en" class="position-relative d-inline-block mb-2">Support</a>
+                                        </li>
+                                        <li lang="gr" >
+                                            <a href="#contact" lang="gr" class="position-relative d-inline-block mb-2">Υποστήριξη</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-4  col-lg-4  col-md-4  col-sm-4 col-4 ">
+                                <div class="footer-widget f-adress pb-40 mt-25">
+                                    <h6 lang="en" class="text-capitalize f-700 mb-22">Get in Touch</h6>
+                                    <h6 lang="gr" class="text-capitalize f-700 mb-22">Επικοινωνία</h6>
+                                    <ul lang="gr" class="footer-address">
+                                        <li class="d-flex align-items-start">
+                                            <span class="f-icon mr-20 mt-1"><i class="fas fa-map-marker-alt"></i></span> 
+                                            <div class="">
+                                                ΠΕΟ Θεσσαλονίκης Κιλκίς 10 χλμ, 54500
+                                            </div>  
+                                        </li>
+                                       
+                                        <li>
+                                            <span class="f-icon mr-20 mt-1"><i class="far fa-envelope"></i></span>
+                                            support@pickslot.io
+                                        </li>
+                                    </ul>
+                                    <ul lang="en" class="footer-address">
+                                        <li class="d-flex align-items-start">
+                                            <span class="f-icon mr-20 mt-1"><i class="fas fa-map-marker-alt"></i></span> 
+                                            <div class="">
+                                                PEO Thessalonikis Kilkis 10km, 54500
+                                            </div>  
+                                        </li>
+                                        <li>
+                                            <span class="f-icon mr-20 mt-1"><i class="far fa-envelope"></i></span>
+                                            support@pickslot.io
+                                        </li>
+                                    </ul>
+                                    <ul class="social-link mt-15">
+                                        <!-- <li class="d-inline-block">
+                                            <a class="facebook-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <a class="twitter-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="d-inline-block">
+                                            <a class="youtube-color text-center pr-15 d-inline-block transition-3" href="#"><i class="fab fa-youtube"></i></a>
+                                        </li> -->
+                                        <li class="d-inline-block">
+                                            <a class="instagram-color text-center d-inline-block transition-3" href="https://www.linkedin.com/company/pickslot/"><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                    </ul><!-- social-link -->
+                                </div>
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="copyright-area mt-20 pb-40">
+                            <div class="row align-items-center justify-content-between flex-column-reverse flex-lg-row">
+                                <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
+                                    <div class="copyright-text text-center text-lg-left mb-15">
+                                        <p class="mb-0 secondary-color2">All rights reserved 
+                                            <a href="https://pickslot.io" class="c-theme f-700 black-color">Pickslot</a>  ©  2023
+                                        </p>
+                                    </div>
+                                </div><!-- /col -->
+      <!--                           <div class="col-xl-7  col-lg-7  col-md-12  col-sm-12 col- pl-3 p-lg-0">
+                                    <ul class="footer-counder-wrapper text-left text-sm-left d-sm-flex justify-content-sm-between">
+                                        <li class="d-block d-sm-inline-block mb-15">
+                                            <div class="single-f-counter d-sm-flex align-items-center">
+                                                <div class="f-count pr-10">
+                                                    <span class="f-700 d-inline-block counter">20</span><span class="d-inline-block f-700">+</span>
+                                                </div>
+                                                <p class="black-color f-700 mb-0">Team Members</p>
+                                            </div>    
+                                        </li>
+                                        <li class="d-block d-sm-inline-block mb-15">
+                                            <div class="single-f-counter d-sm-flex align-items-center">
+                                                <div class="f-count pr-10">
+                                                    <span class="f-700 d-inline-block counter">70</span><span class="d-inline-block f-700">+</span>
+                                                </div>
+                                                <p class="black-color f-700 mb-0">Custom Modules</p>
+                                            </div>    
+                                        </li>
+                                        <li class="d-block d-sm-inline-block mb-15">
+                                            <div class="single-f-counter d-sm-flex align-items-center">
+                                                <div class="f-count pr-10">
+                                                    <span class="f-700 d-inline-block counter">500</span><span class="d-inline-block f-700">K</span>
+                                                </div>
+                                                <p class="black-color f-700 mb-0">Active Install</p>
+                                            </div>    
+                                        </li>
+                                    </ul>
+                                </div> -->
+                                <!-- /col -->
+                            </div>
+                        </div><!-- /copyright-area -->
+                    </div><!-- /container -->
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+</footer>
+
+        <!-- back top -->
+        <div id="scroll" class="scroll-up position-relative z-index11">
+            <div class="top text-center"><span class="white-color theme-bg"><i class="fa fa-arrow-alt-up"></i></span></div>
+        </div>
+
+        <!-- All js here -->
+        <script src='https://www.google.com/recaptcha/api.js?render=6Lc-HgIlAAAAAJEz7X6-MJ5phpjj802CQ4NqBwSL'></script>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/image-loaded.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/waypoint.js"></script>
+        <script src="js/counterup-min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/tilt.jquery.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,150 @@
+/*
+	
+	Name: Evalo Documentation
+	Author: eThemeStudio
+	
+	Date Created: February 7, 2023
+	Last Updated: February 7, 2023
+
+ */
+
+// variables
+
+@main-color: #6c62ff;
+@secondery-color: #ffba00;
+@gray: #f5f5f5;
+
+@font: 'open sans', sans-serif;
+
+body{
+	font-family: @font;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+aside{
+	// background: @main-color;
+	color: #fff;
+
+	.doc-title{
+		color: #fff;
+
+		&:hover{
+			text-decoration: none;
+			color: @secondery-color;
+		}
+
+		h1{
+			font-size: 21px;
+			padding-left: 2em;
+			margin-top: .5em;
+			text-transform: capitalize;
+
+			small{
+				display: block;
+				text-transform: capitalize;
+				margin-top: .5em;
+				color: #fff;
+			}
+		}
+	}
+
+
+	div{
+		position: fixed;
+		background: @main-color;
+		width: 20em;
+
+		ul{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			list-style: none;
+			margin-top: 2em;
+
+			li{
+				border-bottom: 1px solid lighten(@main-color, 20%);
+				padding: .5em 0;
+
+				&:last-child{
+					border-bottom: 0;
+				}
+
+				&:hover{
+					// background: lighten(@main-color, 20%);
+					// if i use this need to use padding
+				}
+
+				a{
+					text-decoration: none;
+					color: #fff;
+					transition: .3s;
+
+					&:hover{
+						color: @secondery-color;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.content{
+
+	>div{
+		min-height: 500px;
+		background: @gray;
+		
+		position: relative;
+
+		article{
+			
+			padding: 3em;
+		}
+
+		&.introduction{
+			article{
+				padding-top: 0;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+	.introduction{
+
+		h1{
+			//margin-top: 9em;
+			margin-bottom: 1em;
+
+			span{
+				text-transform: capitalize;
+				font-weight: bold;
+				font-size: 120%;
+			}
+		}
+	}
+
+	.hero-section{
+		img{
+			margin-bottom: 5em;
+		}
+	}
+
+	.cta{
+
+		p{
+			span{
+				background: lighten(@main-color, 20%);
+				padding: .1em .5em;
+			}
+		}
+	}
+}

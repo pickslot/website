@@ -1,0 +1,5 @@
+[15-Mar-2023 14:11:18 UTC] PHP Notice:  Undefined index: inputName in /home/srd145jiy4ue/public_html/php/mail.php on line 7
+[15-Mar-2023 14:11:18 UTC] PHP Notice:  Undefined index: inputEmail in /home/srd145jiy4ue/public_html/php/mail.php on line 9
+[15-Mar-2023 14:11:18 UTC] PHP Notice:  Undefined index: inputPhone in /home/srd145jiy4ue/public_html/php/mail.php on line 11
+[15-Mar-2023 14:11:18 UTC] PHP Notice:  Undefined index: inputMessage in /home/srd145jiy4ue/public_html/php/mail.php on line 12
+[15-Mar-2023 14:28:13 UTC] PHP Notice:  Undefined index: g-recaptcha-response in /home/srd145jiy4ue/public_html/php/mail.php on line 26

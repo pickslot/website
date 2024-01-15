@@ -1,0 +1,97 @@
+/*
+	
+	Name: Evalo Documentation
+	Author: eThemeStudio
+	
+	Date Created: February 7, 2023
+	Last Updated: February 7, 2023
+
+ */
+body {
+  font-family: 'open sans', sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+aside {
+  color: #fff;
+}
+aside .doc-title {
+  color: #fff;
+}
+aside .doc-title:hover {
+  text-decoration: none;
+  color: #ffba00;
+}
+aside .doc-title h1 {
+  font-size: 21px;
+  padding-left: 2em;
+  margin-top: 0.5em;
+  text-transform: capitalize;
+}
+aside .doc-title h1 small {
+  display: block;
+  text-transform: capitalize;
+  margin-top: 0.5em;
+  color: #fff;
+}
+aside div {
+  position: fixed;
+  background: #6c62ff;
+  width: 20em;
+}
+aside div ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  margin-top: 2em;
+}
+aside div ul li {
+  border-bottom: 1px solid #ccc8ff;
+  padding: 0.5em 0;
+}
+aside div ul li:last-child {
+  border-bottom: 0;
+}
+aside div ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+aside div ul li a:hover {
+  color: #ffba00;
+  text-decoration: none;
+}
+.content > div {
+  min-height: 500px;
+  background: #f5f5f5;
+  position: relative;
+}
+.content > div article {
+  padding: 3em;
+}
+.content > div.introduction article {
+  padding-top: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content .introduction h1 {
+  margin-bottom: 1em;
+}
+.content .introduction h1 span {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 120%;
+}
+.content .hero-section img {
+  margin-bottom: 5em;
+}
+.content .cta p span {
+  background: #ccc8ff;
+  padding: 0.1em 0.5em;
+}
