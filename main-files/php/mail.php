@@ -51,7 +51,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "support@pickslot.io"; /** DON'T FORGET TO PUT YOUR EMAIL HERE **/
+        $recipient = "contact@pickslot.gr"; /** DON'T FORGET TO PUT YOUR EMAIL HERE **/
 
         // Set the email subject.
         $subject = "New message from $name";
