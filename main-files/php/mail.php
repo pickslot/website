@@ -19,7 +19,7 @@
             echo "Oops! There was a problem Please complete the form and try again.";
             exit;
         }
-        $secretKey     = '6Lc-HgIlAAAAAPeOptgUe3D7B8h94dcwbDp5bSEO'; 
+        $secretKey     = '6LeRRsEpAAAAAMvAw2gCAGI596eCv6Tb9yN3cJr6';
         $api_url = 'https://www.google.com/recaptcha/api/siteverify';  
         $resq_data = array(  
                 'secret' => $secretKey,  

@@ -68,11 +68,11 @@
     // 3. preloader
     //---------------------------------------------------------------------------
     $(window).load(function(){
-        $('#preloader').fadeOut('slow',function(){$(this).remove();});
         if(screen.width<500){
-            document.getElementById("pickslotIframe").setAttribute("height", window.innerHeight-20);
-            document.getElementById("basicContainer").setAttribute("class","");
+            window.location.replace("https://pickslot.web.app");
         }
+        $('#preloader').fadeOut('slow',function(){$(this).remove();});
+
     });
 
 
