@@ -488,7 +488,7 @@
     var ReCAPTCHAv3Utils = new function() {
 
         // reCaptcha v3 key to get on https://www.google.com/recaptcha/admin#list
-        var PUBLIC_KEY = '6Lc-HgIlAAAAAJEz7X6-MJ5phpjj802CQ4NqBwSL';
+        var PUBLIC_KEY = '6LeRRsEpAAAAAEl1MFmBZdiD0ZS6tEjYBa4VLgK9';
 
         // Requests Google reCAPTCHAv3 API to get token.
         //
