@@ -67,13 +67,13 @@
 
     // 3. preloader
     //---------------------------------------------------------------------------
-    $(window).load(function(){
-        if(screen.width<500){
-            window.location.replace("https://pickslot.web.app");
-        }
-        $('#preloader').fadeOut('slow',function(){$(this).remove();});
+   // $(window).load(function(){
+   //     if(screen.width<500){
+   //         window.location.replace("https://pickslot.web.app");
+   //     }
+   //     $('#preloader').fadeOut('slow',function(){$(this).remove();});
 
-    });
+   // });
 
 
 
