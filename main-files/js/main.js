@@ -602,7 +602,7 @@
     
     $('#switch-lang').click(function() {
 
-        $('[lang="gr"]').toggle();
+        $('[lang="el"]').toggle();
         $('[lang="en"]').toggle();
 
 
@@ -610,14 +610,14 @@
 
     $('#en-lang').click(function() {
         $('[lang="en"]').show();
-        $('[lang="gr"]').hide();
+        $('[lang="el"]').hide();
 
     });
 
     $('#gr-lang').click(function() {
 
         $('[lang="gr"]').show();
-        $('[lang="en"]').hide();
+        $('[lang="el"]').hide();
 
     });
 
